@@ -6,4 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity"
     android:background="@color/design_default_color_background"
-    />
+    >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="459dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
