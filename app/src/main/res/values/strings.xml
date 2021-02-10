@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">eglenceliOgrenme</string>
+    <string name="tavsan_ismi">Tavşan</string>
+    <string name="aslan_ismi">Aslan</string>
+    <string name="ayi_ismi">Ayı</string>
+    <string name="at_ismi">At</string>
+    <string name="domuz_ismi">Domuz</string>
+    <string name="fare_ismi">Fare</string>
+    <string name="fil_ismi">Fil</string>
+    <string name="horoz_ismi">Horoz</string>
+    <string name="inek_ismi">İnek</string>
+    <string name="kaplumbaga_ismi">Kaplumbağa</string>
+    <string name="kedi_ismi">Kedi</string>
+    <string name="kirpi_ismi">Kirpi</string>
+    <string name="koala_ismi">Koala</string>
+    <string name="kopek_ismi">Köpek</string>
+    <string name="maymun_ismi">Maymun</string>
+    <string name="panda_ismi">Panda</string>
+    <string name="papagan_ismi">Papağan</string>
+    <string name="timsah_ismi">Timsah</string>
+    <string name="zurafa_ismi">Zürafa</string>
+    <string name="kus_ismi">Kuş</string>
+    <string name="sifir_sayi">Sıfır</string>
+    <string name="bir_sayi">Bir</string>
+    <string name="iki_sayi">İki</string>
+    <string name="uc_sayi">Üç</string>
+    <string name="dort_sayi">Dört</string>
+    <string name="bes_sayi">Beş</string>
+    <string name="alti_sayi">Altı</string>
+    <string name="yedi_sayi">Yedi</string>
+    <string name="sekiz_sayi">Sekiz</string>
+    <string name="dokuz_sayi">Dokuz</string>
+    <string name="on_sayi">On</string>
+    <string name="sayilarkategori">Sayilar</string>
+    <string name="hayvanlarkategori">Timsah</string>
+
+
 </resources>
