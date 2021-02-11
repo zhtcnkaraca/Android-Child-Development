@@ -1,17 +1,14 @@
 package com.eglence.eglenceliOgrenme;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class SplashActivity extends AppCompatActivity {
-
+public class AnaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
-
-
-
+        setContentView(R.layout.activity_ana);
     }
 }

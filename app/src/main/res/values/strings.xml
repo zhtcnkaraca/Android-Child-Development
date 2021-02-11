@@ -36,7 +36,6 @@
     <string name="sayilarkategori">Sayilar</string>
 
 
-
     <string name="beyaz_renk">Beyaz</string>
     <string name="kahverengi_renk">Kahverengi</string>
     <string name="kirmizi_renk">Kırmızı</string>
@@ -49,9 +48,6 @@
     <string name="turuncu_renk">Turuncu</string>
     <string name="yesil_renk">Yeşil</string>
     <string name="renkler_kategori">Renkler</string>
-
-
-
 
 
 </resources>
