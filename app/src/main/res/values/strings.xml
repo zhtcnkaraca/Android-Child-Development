@@ -65,4 +65,38 @@
     <string name="sekiller_kategori">Şekiller</string>
 
 
+    <string name="aharfi_isim">A Harfi</string>
+    <string name="bharfi_isim">B Harfi</string>
+    <string name="charfi_isim">C Harfi</string>
+    <string name="dharfi_isim">D Harfi</string>
+    <string name="eharfi_isim">E Harfi</string>
+    <string name="fharfi_isim">F Harfi</string>
+    <string name="gharfi_isim">G Harfi</string>
+    <string name="g2harfi_isim">Ğ Harfi</string>
+    <string name="hharfi_isim">H Harfi</string>
+    <string name="ı2harfi_isim">İ Harfi</string>
+    <string name="ıharfi_isim">I Harfi</string>
+    <string name="jharfi_isim">J Harfi</string>
+    <string name="kharfi_isim">K Harfi</string>
+    <string name="lharfi_isim">L Harfi</string>
+    <string name="mharfi_isim">M Harfi</string>
+    <string name="nharfi_isim">N Harfi</string>
+    <string name="oharfi_isim">O Harfi</string>
+    <string name="o2harfi_isim">Ö Harfi</string>
+    <string name="pharfi_isim">P Harfi</string>
+    <string name="rharfi_isim">R Harfi</string>
+    <string name="sharfi_isim">S Harfi</string>
+    <string name="s2harfi_isim">Ş Harfi</string>
+    <string name="tharfi_isim">T Harfi</string>
+    <string name="uharfi_isim">U Harfi</string>
+    <string name="vharfi_isim">V Harfi</string>
+    <string name="yharfi_isim">Y Harfi</string>
+    <string name="zharfi_isim">Z Harfi</string>
+    <string name="harfler_kategori">Harfler</string>
+
+
+
+
+
+
 </resources>
