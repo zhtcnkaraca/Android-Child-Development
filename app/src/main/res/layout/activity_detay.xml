@@ -8,7 +8,7 @@
     tools:context=".DetayActivity">
 
     <Button
-        android:id="@+id/btn_geri"
+        android:id="@+id/btn_detay_geri"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="180dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_ileri"
+        android:id="@+id/btn_detay_ileri"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="15dp"
@@ -29,10 +29,10 @@
         android:background="@drawable/image_next_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/linearLayout"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ses" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_detay_ses" />
 
     <Button
-        android:id="@+id/btn_ses"
+        android:id="@+id/btn_detay_ses"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="15dp"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_anamenu"
+        android:id="@+id/btn_detay_anamenu"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="15dp"
@@ -65,8 +65,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/txt_detay_isim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/alti_sayi"
+            android:textAlignment="center" />
+
         <ImageView
-            android:id="@+id/img_resim"
+            android:id="@+id/img_detay_resim"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/big_logo" />

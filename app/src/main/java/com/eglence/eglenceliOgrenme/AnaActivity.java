@@ -74,27 +74,27 @@ public class AnaActivity extends AppCompatActivity  implements View.OnClickListe
                 startAlertDialog();
                 break;
             case R.id.btn_hayvanlar:
-                PrefUtil.setCategory(getApplicationContext(), String.valueOf(hayvanlar.getId()));
+                PrefUtil.setCategory(getApplicationContext(), "Hayvanlar");
                 nextActivity();
                 break;
             case R.id.btn_sayilar:
-                PrefUtil.setCategory(getApplicationContext(), String.valueOf(sayilar.getId()));
+                PrefUtil.setCategory(getApplicationContext(), "Sayilar");
                 nextActivity();
                 break;
             case R.id.btn_renkler:
-                PrefUtil.setCategory(getApplicationContext(), String.valueOf(renkler.getId()));
+                PrefUtil.setCategory(getApplicationContext(), "Renkler");
                 nextActivity();
                 break;
             case R.id.btn_sekiller:
-                PrefUtil.setCategory(getApplicationContext(), String.valueOf(sekiller.getId()));
+                PrefUtil.setCategory(getApplicationContext(), "Sekiller");
                 nextActivity();
                 break;
             case R.id.btn_harfler:
-                PrefUtil.setCategory(getApplicationContext(), String.valueOf(harfler.getId()));
+                PrefUtil.setCategory(getApplicationContext(), "Harfler");
                 nextActivity();
                 break;
             case R.id.btn_sorular:
-                PrefUtil.setCategory(getApplicationContext(), String.valueOf(sorular.getId()));
+                PrefUtil.setCategory(getApplicationContext(), "Sorular");
                 nextActivity();
                 break;
         }

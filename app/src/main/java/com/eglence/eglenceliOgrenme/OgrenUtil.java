@@ -602,7 +602,7 @@ public class OgrenUtil {
         ogrens.add(question80);
     }
 
-    public static Ogren getNextQuestion(){
+    public static Ogren getNextItem(){
         if(OGREN_INDEX<ogrens.size()-1){
             OGREN_INDEX++;
         }
