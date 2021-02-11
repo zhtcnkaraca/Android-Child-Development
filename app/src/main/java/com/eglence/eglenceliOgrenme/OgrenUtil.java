@@ -612,5 +612,13 @@ public class OgrenUtil {
         return ogrens.get(OGREN_INDEX);
     }
 
-
+    public static Ogren getPreviousItem(){
+        if(OGREN_INDEX<ogrens.size()-1){
+            OGREN_INDEX--;
+        }
+        else {
+            OGREN_INDEX = 0;
+        }
+        return ogrens.get(OGREN_INDEX);
+    }
 }

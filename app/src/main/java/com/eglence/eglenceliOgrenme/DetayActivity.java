@@ -58,7 +58,19 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
             }
         }
     }
+    public void ItemGeriGetir(){
+        String categoryName =PrefUtil.getCategory((getApplicationContext()));
+        status=true;
+        while (status == true){
+            Ogren ogren = OgrenUtil.getPreviousItem();
+            if(categoryName.equals(ogren.getKategori())){
+                status= false;
+                isim.setText(ogren.getAdi());
+                resim.setImageDrawable(ogren.getFotograf());
 
+            }
+        }
+    }
     @Override
     public void onClick(View view) {
         switch (view.getId()){
@@ -70,7 +82,7 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
 
                 break;
             case R.id.btn_detay_geri:
-
+                ItemGeriGetir();
                 break;
             case R.id.btn_detay_ileri:
                 ItemGetir();
