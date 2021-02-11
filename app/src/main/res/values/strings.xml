@@ -20,6 +20,8 @@
     <string name="timsah_ismi">Timsah</string>
     <string name="zurafa_ismi">Zürafa</string>
     <string name="kus_ismi">Kuş</string>
+    <string name="hayvanlarkategori">Hayvanlar</string>
+
     <string name="sifir_sayi">Sıfır</string>
     <string name="bir_sayi">Bir</string>
     <string name="iki_sayi">İki</string>
@@ -32,7 +34,24 @@
     <string name="dokuz_sayi">Dokuz</string>
     <string name="on_sayi">On</string>
     <string name="sayilarkategori">Sayilar</string>
-    <string name="hayvanlarkategori">Timsah</string>
+
+
+
+    <string name="beyaz_renk">Beyaz</string>
+    <string name="kahverengi_renk">Kahverengi</string>
+    <string name="kirmizi_renk">Kırmızı</string>
+    <string name="lacivert_renk">Lacivert</string>
+    <string name="mavi_renk">Mavi</string>
+    <string name="mor_renk">Mor</string>
+    <string name="pembe_renk">Pembe</string>
+    <string name="sari_renk">Sarı</string>
+    <string name="siyah_renk">Siyah</string>
+    <string name="turuncu_renk">Turuncu</string>
+    <string name="yesil_renk">Yeşil</string>
+    <string name="renkler_kategori">Renkler</string>
+
+
+
 
 
 </resources>
