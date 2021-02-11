@@ -20,7 +20,7 @@
     <string name="timsah_ismi">Timsah</string>
     <string name="zurafa_ismi">Zürafa</string>
     <string name="kus_ismi">Kuş</string>
-    <string name="hayvanlarkategori">Hayvanlar</string>
+    <string name="hayvanlar_kategori">btn_hayvanlar</string>
 
 
 
@@ -35,7 +35,7 @@
     <string name="sekiz_sayi">Sekiz</string>
     <string name="dokuz_sayi">Dokuz</string>
     <string name="on_sayi">On</string>
-    <string name="sayilarkategori">Sayilar</string>
+    <string name="sayilar_kategori">btn_sayilar</string>
 
 
 
@@ -50,7 +50,7 @@
     <string name="siyah_renk">Siyah</string>
     <string name="turuncu_renk">Turuncu</string>
     <string name="yesil_renk">Yeşil</string>
-    <string name="renkler_kategori">Renkler</string>
+    <string name="renkler_kategori">btn_renkler</string>
 
 
     <string name="altigen_isim">Altıgen</string>
@@ -62,7 +62,7 @@
     <string name="kalp_isim">Kalp</string>
     <string name="ucgen_isim">Üçgen</string>
     <string name="yildiz_isim">Yıldız</string>
-    <string name="sekiller_kategori">Şekiller</string>
+    <string name="sekiller_kategori">btn_sekiller</string>
 
 
     <string name="aharfi_isim">A Harfi</string>
@@ -94,7 +94,7 @@
     <string name="vharfi_isim">V Harfi</string>
     <string name="yharfi_isim">Y Harfi</string>
     <string name="zharfi_isim">Z Harfi</string>
-    <string name="harfler_kategori">Harfler</string>
+    <string name="harfler_kategori">btn_harfler</string>
 
 
 
