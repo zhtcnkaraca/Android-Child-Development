@@ -98,6 +98,10 @@
 
 
 
+    <string name="cikis_dikkat">Dikkat</string>
+    <string name="cikis_soru">Uygulamadan çıkmak üzeresiniz!</string>
+    <string name="cikis_evet">Evet</string>
+    <string name="cikis_hayir">Hayır</string>
 
 
 

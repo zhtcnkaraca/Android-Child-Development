@@ -601,4 +601,16 @@ public class OgrenUtil {
         ogrens.add(question79);
         ogrens.add(question80);
     }
+
+    public static Ogren getNextQuestion(){
+        if(OGREN_INDEX<ogrens.size()-1){
+            OGREN_INDEX++;
+        }
+        else {
+            OGREN_INDEX = 0;
+        }
+        return ogrens.get(OGREN_INDEX);
+    }
+
+
 }
