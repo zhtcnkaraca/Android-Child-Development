@@ -49,5 +49,16 @@
     <string name="yesil_renk">Yeşil</string>
     <string name="renkler_kategori">Renkler</string>
 
+    <string name="altigen_isim">Altıgen</string>
+    <string name="besgen_isim">Beşgen</string>
+    <string name="daire_isim">Daire</string>
+    <string name="dikdortgen_isim">Dikdortgen</string>
+    <string name="dortgen_isim">Dörtgen</string>
+    <string name="kare_isim">Kare</string>
+    <string name="kalp_isim">Kalp</string>
+    <string name="ucgen_isim">Üçgen</string>
+    <string name="yildiz_isim">Yıldız</string>
+    <string name="sekiller_kategori">Şekiller</string>
+
 
 </resources>
