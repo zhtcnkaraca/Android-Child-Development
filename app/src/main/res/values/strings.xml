@@ -22,6 +22,8 @@
     <string name="kus_ismi">Kuş</string>
     <string name="hayvanlarkategori">Hayvanlar</string>
 
+
+
     <string name="sifir_sayi">Sıfır</string>
     <string name="bir_sayi">Bir</string>
     <string name="iki_sayi">İki</string>
@@ -36,6 +38,7 @@
     <string name="sayilarkategori">Sayilar</string>
 
 
+
     <string name="beyaz_renk">Beyaz</string>
     <string name="kahverengi_renk">Kahverengi</string>
     <string name="kirmizi_renk">Kırmızı</string>
@@ -48,6 +51,7 @@
     <string name="turuncu_renk">Turuncu</string>
     <string name="yesil_renk">Yeşil</string>
     <string name="renkler_kategori">Renkler</string>
+
 
     <string name="altigen_isim">Altıgen</string>
     <string name="besgen_isim">Beşgen</string>
