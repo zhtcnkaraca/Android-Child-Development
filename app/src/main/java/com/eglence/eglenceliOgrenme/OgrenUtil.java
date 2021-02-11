@@ -8,6 +8,7 @@ public class OgrenUtil {
     static ArrayList<Ogren> ogrens = new ArrayList<>();
 
     static int OGREN_INDEX = 0;
+    static int OGREN_INDEX_REVERSE = 79;
 
     public static void createOgrens(Context context){
         //Sayılar
@@ -615,9 +616,12 @@ public class OgrenUtil {
     public static Ogren getPreviousItem(){
         if(OGREN_INDEX<ogrens.size()-1){
             OGREN_INDEX--;
+            if(OGREN_INDEX == -1){
+                OGREN_INDEX= 79;
+            }
         }
         else {
-            OGREN_INDEX = 0;
+            OGREN_INDEX = 79;
         }
         return ogrens.get(OGREN_INDEX);
     }

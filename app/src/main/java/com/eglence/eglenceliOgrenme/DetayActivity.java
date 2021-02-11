@@ -67,8 +67,8 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
                 status= false;
                 isim.setText(ogren.getAdi());
                 resim.setImageDrawable(ogren.getFotograf());
-
             }
+
         }
     }
     @Override
