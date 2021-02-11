@@ -387,7 +387,4 @@ public class OgrenUtil {
         ogrens.add(question50);
         ogrens.add(question51);
     }
-
-
-
 }
