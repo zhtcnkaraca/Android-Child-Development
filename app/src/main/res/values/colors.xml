@@ -15,5 +15,6 @@
     <color name="green">#00a500</color>
     <color name="border">#EBEBEB</color>
     <color name="softPurple">#d5abea</color>
+    <color name="progress_color">#EFE4D2</color>
 
 </resources>
