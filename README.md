@@ -13,10 +13,10 @@ The main aim of project is using API's in android project listing some kind of c
 
 <h2 id="Outputs">Outputs</h2>
 <p>
-  <img height= "400"  src="https://github.com/Zahit-Can-Karaca/Android-Child-Development/blob/main/image/splashActivity.png" alt="SS1" />
-  <img height= "400"  src="https://github.com/Zahit-Can-Karaca/Android-Child-Development/blob/main/image/mainActivity.png" alt="SS2" />
-  <img height= "400"  src="https://github.com/Zahit-Can-Karaca/Android-Child-Development/blob/main/image/detailActivity.png" alt="SS3" />
-  <img height= "400"  src="https://github.com/Zahit-Can-Karaca/Android-Child-Development/blob/main/image/questionActivity.png" alt="SS4" />
+  <img height= "400"  src="https://github.com/Zahit-Can-Karaca/Android-Child-Development/blob/main/image/splashActivity.PNG" alt="SS1" />
+  <img height= "400"  src="https://github.com/Zahit-Can-Karaca/Android-Child-Development/blob/main/image/mainActivity.PNG" alt="SS2" />
+  <img height= "400"  src="https://github.com/Zahit-Can-Karaca/Android-Child-Development/blob/main/image/detailActivity.PNG" alt="SS3" />
+  <img height= "400"  src="https://github.com/Zahit-Can-Karaca/Android-Child-Development/blob/main/image/questionActivity.PNG" alt="SS4" />
   
   
 </p>
