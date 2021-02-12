@@ -14,509 +14,426 @@ public class OgrenUtil {
         Ogren question1 = new Ogren(
                 context.getResources().getString(R.string.sifir_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_sifirsayisi),
-                context.getResources().getResourceName(R.raw.ses_sifir)
+                context.getResources().getDrawable(R.drawable.image_sifirsayisi)
         );
 
         Ogren question2 = new Ogren(
                 context.getResources().getString(R.string.bir_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_birsayisi),
-                context.getResources().getResourceName(R.raw.ses_bir)
+                context.getResources().getDrawable(R.drawable.image_birsayisi)
         );
 
         Ogren question3 = new Ogren(
                 context.getResources().getString(R.string.iki_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_ikisayisi),
-                context.getResources().getResourceName(R.raw.ses_iki)
+                context.getResources().getDrawable(R.drawable.image_ikisayisi)
         );
 
         Ogren question4 = new Ogren(
                 context.getResources().getString(R.string.uc_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_ucsayisi),
-                context.getResources().getResourceName(R.raw.ses_uc)
+                context.getResources().getDrawable(R.drawable.image_ucsayisi)
         );
 
         Ogren question5 = new Ogren(
                 context.getResources().getString(R.string.dort_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_dortsayisi),
-                context.getResources().getResourceName(R.raw.ses_dort)
+                context.getResources().getDrawable(R.drawable.image_dortsayisi)
         );
 
         Ogren question6 = new Ogren(
                 context.getResources().getString(R.string.bes_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_bessayisi),
-                context.getResources().getResourceName(R.raw.ses_bes)
+                context.getResources().getDrawable(R.drawable.image_bessayisi)
         );
 
         Ogren question7 = new Ogren(
                 context.getResources().getString(R.string.alti_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_altisayisi),
-                context.getResources().getResourceName(R.raw.ses_alti)
+                context.getResources().getDrawable(R.drawable.image_altisayisi)
         );
 
         Ogren question8 = new Ogren(
                 context.getResources().getString(R.string.yedi_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_yedisayisi),
-                context.getResources().getResourceName(R.raw.ses_yedi)
+                context.getResources().getDrawable(R.drawable.image_yedisayisi)
         );
 
         Ogren question9 = new Ogren(
                 context.getResources().getString(R.string.sekiz_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_sekizsayisi),
-                context.getResources().getResourceName(R.raw.ses_sekiz)
+                context.getResources().getDrawable(R.drawable.image_sekizsayisi)
         );
 
         Ogren question10 = new Ogren(
                 context.getResources().getString(R.string.dokuz_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_dokuzsayisi),
-                context.getResources().getResourceName(R.raw.ses_dokuz)
+                context.getResources().getDrawable(R.drawable.image_dokuzsayisi)
         );
 
         Ogren question11 = new Ogren(
                 context.getResources().getString(R.string.on_sayi),
                 context.getResources().getString(R.string.sayilar_kategori),
-                context.getResources().getDrawable(R.drawable.image_onsayisi),
-                context.getResources().getResourceName(R.raw.ses_on)
+                context.getResources().getDrawable(R.drawable.image_onsayisi)
         );
-
         //Hayvanlar
         Ogren question12 = new Ogren(
                 context.getResources().getString(R.string.aslan_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_aslan),
-                context.getResources().getResourceName(R.raw.ses_aslan)
+                context.getResources().getDrawable(R.drawable.image_aslan)
         );
         Ogren question13 = new Ogren(
                 context.getResources().getString(R.string.ayi_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_ayi),
-                context.getResources().getResourceName(R.raw.ses_ayi)
+                context.getResources().getDrawable(R.drawable.image_ayi)
         );
         Ogren question14 = new Ogren(
                 context.getResources().getString(R.string.at_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_at),
-                context.getResources().getResourceName(R.raw.ses_at)
+                context.getResources().getDrawable(R.drawable.image_at)
         );
         Ogren question15 = new Ogren(
                 context.getResources().getString(R.string.domuz_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_domuz),
-                context.getResources().getResourceName(R.raw.ses_domuz)
+                context.getResources().getDrawable(R.drawable.image_domuz)
         );
         Ogren question16 = new Ogren(
                 context.getResources().getString(R.string.fare_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_fare),
-                context.getResources().getResourceName(R.raw.ses_fare)
+                context.getResources().getDrawable(R.drawable.image_fare)
         );
         Ogren question17 = new Ogren(
                 context.getResources().getString(R.string.fil_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_fil),
-                context.getResources().getResourceName(R.raw.ses_fil)
+                context.getResources().getDrawable(R.drawable.image_fil)
         );
         Ogren question18 = new Ogren(
                 context.getResources().getString(R.string.horoz_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_horoz),
-                context.getResources().getResourceName(R.raw.ses_horoz)
+                context.getResources().getDrawable(R.drawable.image_horoz)
         );
         Ogren question19 = new Ogren(
                 context.getResources().getString(R.string.inek_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_inek),
-                context.getResources().getResourceName(R.raw.ses_inek)
+                context.getResources().getDrawable(R.drawable.image_inek)
         );
         Ogren question20 = new Ogren(
                 context.getResources().getString(R.string.kaplumbaga_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_kaplumbaga),
-                context.getResources().getResourceName(R.raw.ses_kaplumbaga)
+                context.getResources().getDrawable(R.drawable.image_kaplumbaga)
         );
         Ogren question21 = new Ogren(
                 context.getResources().getString(R.string.kedi_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_kedi),
-                context.getResources().getResourceName(R.raw.ses_kedi)
+                context.getResources().getDrawable(R.drawable.image_kedi)
         );
         Ogren question22 = new Ogren(
                 context.getResources().getString(R.string.kirpi_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_kirpi),
-                context.getResources().getResourceName(R.raw.ses_kirpi)
+                context.getResources().getDrawable(R.drawable.image_kirpi)
         );
         Ogren question23 = new Ogren(
                 context.getResources().getString(R.string.koala_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_koala),
-                context.getResources().getResourceName(R.raw.ses_koala)
+                context.getResources().getDrawable(R.drawable.image_koala)
         );
         Ogren question24 = new Ogren(
                 context.getResources().getString(R.string.kopek_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_kopek),
-                context.getResources().getResourceName(R.raw.ses_kopek)
+                context.getResources().getDrawable(R.drawable.image_kopek)
         );
         Ogren question25 = new Ogren(
                 context.getResources().getString(R.string.kus_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_kus),
-                context.getResources().getResourceName(R.raw.ses_kus)
+                context.getResources().getDrawable(R.drawable.image_kus)
         );
         Ogren question26 = new Ogren(
                 context.getResources().getString(R.string.maymun_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_maymun),
-                context.getResources().getResourceName(R.raw.ses_maymun)
+                context.getResources().getDrawable(R.drawable.image_maymun)
         );
         Ogren question27 = new Ogren(
                 context.getResources().getString(R.string.panda_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_panda),
-                context.getResources().getResourceName(R.raw.ses_panda)
+                context.getResources().getDrawable(R.drawable.image_panda)
         );
         Ogren question28 = new Ogren(
                 context.getResources().getString(R.string.papagan_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_papagan),
-                context.getResources().getResourceName(R.raw.ses_papagan)
+                context.getResources().getDrawable(R.drawable.image_papagan)
         );
         Ogren question29 = new Ogren(
                 context.getResources().getString(R.string.tavsan_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_tavsan),
-                context.getResources().getResourceName(R.raw.ses_tavsan)
+                context.getResources().getDrawable(R.drawable.image_tavsan)
         );
         Ogren question30 = new Ogren(
                 context.getResources().getString(R.string.timsah_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_timsah),
-                context.getResources().getResourceName(R.raw.ses_timsah)
+                context.getResources().getDrawable(R.drawable.image_timsah)
         );
         Ogren question31 = new Ogren(
                 context.getResources().getString(R.string.zurafa_ismi),
                 context.getResources().getString(R.string.hayvanlar_kategori),
-                context.getResources().getDrawable(R.drawable.image_zurafa),
-                context.getResources().getResourceName(R.raw.ses_zurafa)
+                context.getResources().getDrawable(R.drawable.image_zurafa)
         );
         //Renkler
         Ogren question32 = new Ogren(
                 context.getResources().getString(R.string.beyaz_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_beyazrenk),
-                context.getResources().getResourceName(R.raw.ses_beyaz)
+                context.getResources().getDrawable(R.drawable.image_beyazrenk)
         );
         Ogren question33 = new Ogren(
                 context.getResources().getString(R.string.kahverengi_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_kahverengi),
-                context.getResources().getResourceName(R.raw.ses_kahverengi)
+                context.getResources().getDrawable(R.drawable.image_kahverengi)
         );
         Ogren question34 = new Ogren(
                 context.getResources().getString(R.string.kirmizi_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_kirmizirenk),
-                context.getResources().getResourceName(R.raw.ses_kirmizi)
+                context.getResources().getDrawable(R.drawable.image_kirmizirenk)
         );
         Ogren question35 = new Ogren(
                 context.getResources().getString(R.string.lacivert_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_lacivertrenk),
-                context.getResources().getResourceName(R.raw.ses_lacivert)
+                context.getResources().getDrawable(R.drawable.image_lacivertrenk)
         );
         Ogren question36 = new Ogren(
                 context.getResources().getString(R.string.mavi_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_mavirenk),
-                context.getResources().getResourceName(R.raw.ses_mavi)
+                context.getResources().getDrawable(R.drawable.image_mavirenk)
         );
         Ogren question37 = new Ogren(
                 context.getResources().getString(R.string.mor_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_morrenk),
-                context.getResources().getResourceName(R.raw.ses_mor)
+                context.getResources().getDrawable(R.drawable.image_morrenk)
         );
         Ogren question38 = new Ogren(
                 context.getResources().getString(R.string.pembe_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_pemberenk),
-                context.getResources().getResourceName(R.raw.ses_pembe)
+                context.getResources().getDrawable(R.drawable.image_pemberenk)
         );
         Ogren question39 = new Ogren(
                 context.getResources().getString(R.string.sari_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_sarirenk),
-                context.getResources().getResourceName(R.raw.ses_sari)
+                context.getResources().getDrawable(R.drawable.image_sarirenk)
         );
         Ogren question40 = new Ogren(
                 context.getResources().getString(R.string.siyah_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_siyahrenk),
-                context.getResources().getResourceName(R.raw.ses_siyah)
+                context.getResources().getDrawable(R.drawable.image_siyahrenk)
         );
         Ogren question41 = new Ogren(
                 context.getResources().getString(R.string.turuncu_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_turuncu),
-                context.getResources().getResourceName(R.raw.ses_turuncu)
+                context.getResources().getDrawable(R.drawable.image_turuncu)
         );
         Ogren question42 = new Ogren(
                 context.getResources().getString(R.string.yesil_renk),
                 context.getResources().getString(R.string.renkler_kategori),
-                context.getResources().getDrawable(R.drawable.image_yesilrenk),
-                context.getResources().getResourceName(R.raw.ses_yesil)
+                context.getResources().getDrawable(R.drawable.image_yesilrenk)
         );
-        
         //Şekiller
         Ogren question43 = new Ogren(
                 context.getResources().getString(R.string.altigen_isim),
                 context.getResources().getString(R.string.sekiller_kategori),
-                context.getResources().getDrawable(R.drawable.image_altigen),
-                context.getResources().getResourceName(R.raw.ses_altigen)
+                context.getResources().getDrawable(R.drawable.image_altigen)
         );
         Ogren question44 = new Ogren(
                 context.getResources().getString(R.string.besgen_isim),
                 context.getResources().getString(R.string.sekiller_kategori),
-                context.getResources().getDrawable(R.drawable.image_besgen),
-                context.getResources().getResourceName(R.raw.ses_besgen)
+                context.getResources().getDrawable(R.drawable.image_besgen)
         );
         Ogren question45 = new Ogren(
                 context.getResources().getString(R.string.daire_isim),
                 context.getResources().getString(R.string.sekiller_kategori),
-                context.getResources().getDrawable(R.drawable.image_daire),
-                context.getResources().getResourceName(R.raw.ses_daire)
+                context.getResources().getDrawable(R.drawable.image_daire)
         );
         Ogren question46 = new Ogren(
                 context.getResources().getString(R.string.dikdortgen_isim),
                 context.getResources().getString(R.string.sekiller_kategori),
-                context.getResources().getDrawable(R.drawable.image_dikdortgen),
-                context.getResources().getResourceName(R.raw.ses_dikdortgen)
+                context.getResources().getDrawable(R.drawable.image_dikdortgen)
         );
         Ogren question47 = new Ogren(
                 context.getResources().getString(R.string.dortgen_isim),
                 context.getResources().getString(R.string.sekiller_kategori),
-                context.getResources().getDrawable(R.drawable.image_dortgen),
-                context.getResources().getResourceName(R.raw.ses_dortgen)
+                context.getResources().getDrawable(R.drawable.image_dortgen)
         );
         Ogren question48 = new Ogren(
                 context.getResources().getString(R.string.kalp_isim),
                 context.getResources().getString(R.string.sekiller_kategori),
-                context.getResources().getDrawable(R.drawable.image_kalp),
-                context.getResources().getResourceName(R.raw.ses_kalp)
+                context.getResources().getDrawable(R.drawable.image_kalp)
         );
         Ogren question49 = new Ogren(
                 context.getResources().getString(R.string.kare_isim),
                 context.getResources().getString(R.string.sekiller_kategori),
-                context.getResources().getDrawable(R.drawable.image_kare),
-                context.getResources().getResourceName(R.raw.ses_kare)
+                context.getResources().getDrawable(R.drawable.image_kare)
         );
         Ogren question50 = new Ogren(
                 context.getResources().getString(R.string.ucgen_isim),
                 context.getResources().getString(R.string.sekiller_kategori),
-                context.getResources().getDrawable(R.drawable.image_ucgen),
-                context.getResources().getResourceName(R.raw.ses_ucgen)
+                context.getResources().getDrawable(R.drawable.image_ucgen)
         );
         Ogren question51 = new Ogren(
                 context.getResources().getString(R.string.yildiz_isim),
                 context.getResources().getString(R.string.sekiller_kategori),
-                context.getResources().getDrawable(R.drawable.image_yildiz),
-                context.getResources().getResourceName(R.raw.ses_yildiz)
+                context.getResources().getDrawable(R.drawable.image_yildiz)
         );
-
         //Harfler
         Ogren question52 = new Ogren(
                 context.getResources().getString(R.string.aharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_aharfi),
-                context.getResources().getResourceName(R.raw.ses_aharfi)
+                context.getResources().getDrawable(R.drawable.image_aharfi)
         );
 
         Ogren question53 = new Ogren(
                 context.getResources().getString(R.string.bharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_bharfi),
-                context.getResources().getResourceName(R.raw.ses_bharfi)
+                context.getResources().getDrawable(R.drawable.image_bharfi)
         );
 
         Ogren question54 = new Ogren(
                 context.getResources().getString(R.string.charfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_charfi),
-                context.getResources().getResourceName(R.raw.ses_charfi)
+                context.getResources().getDrawable(R.drawable.image_charfi)
         );
 
         Ogren question55 = new Ogren(
                 context.getResources().getString(R.string.c2harfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_c2harfi),
-                context.getResources().getResourceName(R.raw.ses_c2harfi)
+                context.getResources().getDrawable(R.drawable.image_c2harfi)
         );
 
         Ogren question56 = new Ogren(
                 context.getResources().getString(R.string.dharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_dharfi),
-                context.getResources().getResourceName(R.raw.ses_dharfi)
+                context.getResources().getDrawable(R.drawable.image_dharfi)
         );
 
         Ogren question57 = new Ogren(
                 context.getResources().getString(R.string.eharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_eharfi),
-                context.getResources().getResourceName(R.raw.ses_eharfi)
+                context.getResources().getDrawable(R.drawable.image_eharfi)
         );
 
         Ogren question58 = new Ogren(
                 context.getResources().getString(R.string.fharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_fharfi),
-                context.getResources().getResourceName(R.raw.ses_fharfi)
+                context.getResources().getDrawable(R.drawable.image_fharfi)
         );
 
         Ogren question59 = new Ogren(
                 context.getResources().getString(R.string.gharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_gharfi),
-                context.getResources().getResourceName(R.raw.ses_gharfi)
+                context.getResources().getDrawable(R.drawable.image_gharfi)
         );
 
         Ogren question60 = new Ogren(
                 context.getResources().getString(R.string.g2harfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_g2harfi),
-                context.getResources().getResourceName(R.raw.ses_g2harf)
+                context.getResources().getDrawable(R.drawable.image_g2harfi)
         );
 
         Ogren question61 = new Ogren(
                 context.getResources().getString(R.string.hharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_hharfi),
-                context.getResources().getResourceName(R.raw.ses_hharfi)
+                context.getResources().getDrawable(R.drawable.image_hharfi)
         );
 
         Ogren question62 = new Ogren(
                 context.getResources().getString(R.string.i2harfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_i2harfi),
-                context.getResources().getResourceName(R.raw.ses_i2harfi)
+                context.getResources().getDrawable(R.drawable.image_i2harfi)
         );
         Ogren question63 = new Ogren(
                 context.getResources().getString(R.string.iharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_iharfi),
-                context.getResources().getResourceName(R.raw.ses_iharfi)
+                context.getResources().getDrawable(R.drawable.image_iharfi)
         );
         Ogren question64 = new Ogren(
                 context.getResources().getString(R.string.jharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_jharfi),
-                context.getResources().getResourceName(R.raw.ses_jharfi)
+                context.getResources().getDrawable(R.drawable.image_jharfi)
         );
         Ogren question65 = new Ogren(
                 context.getResources().getString(R.string.kharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_kharfi),
-                context.getResources().getResourceName(R.raw.ses_kharfi)
+                context.getResources().getDrawable(R.drawable.image_kharfi)
         );
         Ogren question66 = new Ogren(
                 context.getResources().getString(R.string.lharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_lharfi),
-                context.getResources().getResourceName(R.raw.ses_lharfi)
+                context.getResources().getDrawable(R.drawable.image_lharfi)
         );
         Ogren question67 = new Ogren(
                 context.getResources().getString(R.string.mharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_mharfi),
-                context.getResources().getResourceName(R.raw.ses_mharfis)
+                context.getResources().getDrawable(R.drawable.image_mharfi)
         );
         Ogren question68 = new Ogren(
                 context.getResources().getString(R.string.nharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_nharfi),
-                context.getResources().getResourceName(R.raw.ses_nharfi)
+                context.getResources().getDrawable(R.drawable.image_nharfi)
         );
         Ogren question69 = new Ogren(
                 context.getResources().getString(R.string.oharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_oharfi),
-                context.getResources().getResourceName(R.raw.ses_oharfi)
+                context.getResources().getDrawable(R.drawable.image_oharfi)
         );
         Ogren question70 = new Ogren(
                 context.getResources().getString(R.string.o2harfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_o2harfi),
-                context.getResources().getResourceName(R.raw.ses_o2harfi)
+                context.getResources().getDrawable(R.drawable.image_o2harfi)
         );
         Ogren question71 = new Ogren(
                 context.getResources().getString(R.string.pharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_pharfi),
-                context.getResources().getResourceName(R.raw.ses_pharfi)
+                context.getResources().getDrawable(R.drawable.image_pharfi)
         );
         Ogren question72 = new Ogren(
                 context.getResources().getString(R.string.rharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_rharfi),
-                context.getResources().getResourceName(R.raw.ses_rharfi)
+                context.getResources().getDrawable(R.drawable.image_rharfi)
         );
         Ogren question73 = new Ogren(
                 context.getResources().getString(R.string.sharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_sharfi),
-                context.getResources().getResourceName(R.raw.ses_sharfi)
+                context.getResources().getDrawable(R.drawable.image_sharfi)
         );
         Ogren question74 = new Ogren(
                 context.getResources().getString(R.string.s2harfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_s2harfi),
-                context.getResources().getResourceName(R.raw.ses_s2harfi)
+                context.getResources().getDrawable(R.drawable.image_s2harfi)
         );
         Ogren question75 = new Ogren(
                 context.getResources().getString(R.string.tharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_tharfi),
-                context.getResources().getResourceName(R.raw.ses_tharfi)
+                context.getResources().getDrawable(R.drawable.image_tharfi)
         );
         Ogren question76 = new Ogren(
                 context.getResources().getString(R.string.uharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_uharfi),
-                context.getResources().getResourceName(R.raw.ses_uharfi)
+                context.getResources().getDrawable(R.drawable.image_uharfi)
         );
         Ogren question77 = new Ogren(
                 context.getResources().getString(R.string.u2harfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_u2harfi),
-                context.getResources().getResourceName(R.raw.ses_u2harfi)
+                context.getResources().getDrawable(R.drawable.image_u2harfi)
         );
         Ogren question78 = new Ogren(
                 context.getResources().getString(R.string.vharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_vharfi),
-                context.getResources().getResourceName(R.raw.ses_vharfi)
+                context.getResources().getDrawable(R.drawable.image_vharfi)
         );
         Ogren question79 = new Ogren(
                 context.getResources().getString(R.string.yharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_yharfi),
-                context.getResources().getResourceName(R.raw.ses_yharfi)
+                context.getResources().getDrawable(R.drawable.image_yharfi)
         );
         Ogren question80 = new Ogren(
                 context.getResources().getString(R.string.zharfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_zharfi),
-                context.getResources().getResourceName(R.raw.ses_zharfi)
+                context.getResources().getDrawable(R.drawable.image_zharfi)
         );
 
 

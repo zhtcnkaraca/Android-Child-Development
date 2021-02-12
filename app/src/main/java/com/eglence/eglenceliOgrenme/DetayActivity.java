@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class DetayActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button anamenu,ses,geri,ileri;
+    Button anamenu,geri,ileri;
     TextView isim;
     Boolean status= true;
     ImageView resim;
@@ -26,14 +26,12 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
 
         NavBarHideUtil.hideBar2(DetayActivity.this);
         anamenu =findViewById(R.id.btn_detay_anamenu);
-        ses =findViewById(R.id.btn_detay_ses);
         geri =findViewById(R.id.btn_detay_geri);
         ileri =findViewById(R.id.btn_detay_ileri);
         isim =findViewById(R.id.txt_detay_isim);
         resim = findViewById(R.id.img_detay_resim);
 
         anamenu.setOnClickListener(this);
-        ses.setOnClickListener(this);
         geri.setOnClickListener(this);
         ileri.setOnClickListener(this);
 
@@ -79,9 +77,6 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
             case R.id.btn_detay_anamenu:
                anaMenuDon();
                 finish();
-                break;
-            case R.id.btn_detay_ses:
-
                 break;
             case R.id.btn_detay_geri:
                 ItemGeriGetir();

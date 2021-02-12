@@ -24,22 +24,10 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="80dp"
         android:layout_marginBottom="181dp"
         android:background="@drawable/image_next_icon"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/linearLayout"
-        app:layout_constraintTop_toBottomOf="@+id/btn_detay_ses" />
-
-    <Button
-        android:id="@+id/btn_detay_ses"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/image_sound_icon"
-        app:layout_constraintStart_toEndOf="@+id/linearLayout"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/linearLayout" />
 
     <Button
         android:id="@+id/btn_detay_anamenu"
@@ -55,8 +43,6 @@
         android:id="@+id/linearLayout"
         android:layout_width="320dp"
         android:layout_height="320dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
         android:background="@drawable/detay_image"
         android:orientation="vertical"
         android:padding="50dp"
@@ -69,8 +55,11 @@
             android:id="@+id/txt_detay_isim"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="15px"
             android:hint="@string/alti_sayi"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/img_detay_resim"
