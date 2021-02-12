@@ -1,11 +1,7 @@
 # [A ( MVVM & Java )]
 
-<p align="center">
-<img src="https://github.com/Zahit-Can-Karaca/Android-Api-Usage/blob/main/images/banner.jpg"/>
-</p>
-
-# Computer Component App
-![appicon](https://github.com/Zahit-Can-Karaca/Android-Api-Usage/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+# Child Development App
+![appicon](https://github.com/zhtcnkaraca/Android-Child-Development/blob/main/image/ic_launcher.png)
 
 Computer Component App is basic listing app which include computer component.
 
@@ -16,13 +12,13 @@ The main aim of project is using API's in android project listing some kind of c
   <img height= "400"  src="https://github.com/zhtcnkaraca/Android-Child-Development/blob/main/image/splashActivity.PNG" alt="SS1" />
   <img height= "400"  src="https://github.com/zhtcnkaraca/Android-Child-Development/blob/main/image/mainActivity.PNG" alt="SS2" />
   <img height= "400"  src="https://github.com/zhtcnkaraca/Android-Child-Development/blob/main/image/detailActivity.PNG" alt="SS3" />
-  <img height= "400"  src="https://github.com/zhtcnkaraca/Android-Child-Development/blob/main/image/Activity.PNG" alt="SS4" />
+  <img height= "400"  src="https://github.com/zhtcnkaraca/Android-Child-Development/blob/main/image/questionActivity.PNG" alt="SS4" />
   
   
 </p>
 
 ## Clean Simple Architecture
-![Architecture](https://github.com/Zahit-Can-Karaca/Android-Api-Usage/blob/main/images/yap%C4%B1.JPG)
+![Architecture](https://github.com/zhtcnkaraca/Android-Child-Development/blob/main/image/yapi.PNG)
 
 
 
