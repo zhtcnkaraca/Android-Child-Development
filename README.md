@@ -1,11 +1,11 @@
-# [Android-Child-Development ( MVVM & Java )]
+# [Android-Child-Development ( MVC & Java )]
 
 # Child Development App
 ![appicon](https://github.com/zhtcnkaraca/Android-Child-Development/blob/main/image/ic_launcher.png)
 
-Computer Component App is basic listing app which include computer component.
+  It is basic education app for children which include colors, alphabet, animals, shapes, numbers and theese questions.
 
-The main aim of project is using API's in android project listing some kind of computer component.
+The main scope of project is learning the basic needed knowledge of school just download a single app.
 
 <h2 id="Outputs">Outputs</h2>
 <p>
