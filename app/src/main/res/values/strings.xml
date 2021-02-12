@@ -101,16 +101,16 @@
     <string name="cikis_hayir">Hayır</string>
 
 
-    <string name="soru1_sorusu">Aşağıdakılerden hangisi Aslan dır?</string>
-    <string name="soru2_sorusu">Aşağıdakılerden hangisi Kirpi dir?</string>
-    <string name="soru3_sorusu">Aşağıdakılerden hangisi Zürafa dır?</string>
-    <string name="soru4_sorusu">Aşağıdakılerden hangisi Kedi dir?</string>
-    <string name="soru5_sorusu">Aşağıdakılerden hangisi Köpek dir?</string>
-    <string name="soru6_sorusu">Aşağıdakılerden hangisi Panda dır?</string>
-    <string name="soru7_sorusu">Aşağıdakılerden hangisi Kaplumbağa dır?</string>
-    <string name="soru8_sorusu">Aşağıdakılerden hangisi Horoz dur?</string>
-    <string name="soru9_sorusu">Aşağıdakılerden hangisi Fil dir?</string>
-    <string name="soru10_sorusu">Aşağıdakılerden hangisi Domuz dur?</string>
+    <string name="soru1_sorusu">Aşağıdakilerden hangisi Aslan dır?</string>
+    <string name="soru2_sorusu">Aşağıdakilerden hangisi Kirpi dir?</string>
+    <string name="soru3_sorusu">Aşağıdakilerden hangisi Zürafa dır?</string>
+    <string name="soru4_sorusu">Aşağıdakilerden hangisi Kedi dir?</string>
+    <string name="soru5_sorusu">Aşağıdakilerden hangisi Köpek dir?</string>
+    <string name="soru6_sorusu">Aşağıdakilerden hangisi Panda dır?</string>
+    <string name="soru7_sorusu">Aşağıdakilerden hangisi Kaplumbağa dır?</string>
+    <string name="soru8_sorusu">Aşağıdakilerden hangisi Horoz dur?</string>
+    <string name="soru9_sorusu">Aşağıdakilerden hangisi Fil dir?</string>
+    <string name="soru10_sorusu">Aşağıdakilerden hangisi Domuz dur?</string>
 
     <string name="soru11_sorusu">Aşağıdakilerden hangisi 0 sayısıdır?</string>
     <string name="soru12_sorusu">Aşağıdakilerden hangisi 10 sayıdır?</string>

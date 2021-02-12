@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.view.View;
 
-public class NavBarHideUtil {
+public class BarGizleUtil {
     public static void hideBar(Context context){
         View decorView = ((Activity)context).getWindow().getDecorView();
         int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION

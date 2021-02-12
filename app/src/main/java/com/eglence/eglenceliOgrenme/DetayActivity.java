@@ -24,7 +24,7 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
     }
     private void init(){
 
-        NavBarHideUtil.hideBar2(DetayActivity.this);
+        BarGizleUtil.hideBar2(DetayActivity.this);
         anamenu =findViewById(R.id.btn_detay_anamenu);
         geri =findViewById(R.id.btn_detay_geri);
         ileri =findViewById(R.id.btn_detay_ileri);

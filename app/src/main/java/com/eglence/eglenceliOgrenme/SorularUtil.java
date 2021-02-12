@@ -184,7 +184,7 @@ public class SorularUtil {
                 21,
                 context.getResources().getString(R.string.soru21_sorusu),
                 context.getResources().getDrawable(R.drawable.image_kalp),
-                context.getResources().getDrawable(R.drawable.image_kare),
+                context.getResources().getDrawable(R.drawable.image_ucgen),
                 context.getResources().getDrawable(R.drawable.image_yildiz),
                 2
         );
@@ -384,9 +384,9 @@ public class SorularUtil {
         Soru soru46 = new Soru(
                 46,
                 context.getResources().getString(R.string.soru46_sorusu),
-                context.getResources().getDrawable(R.drawable.image_yildiz),
-                context.getResources().getDrawable(R.drawable.image_kare),
-                context.getResources().getDrawable(R.drawable.image_altigen),
+                context.getResources().getDrawable(R.drawable.image_sarirenk),
+                context.getResources().getDrawable(R.drawable.image_pemberenk),
+                context.getResources().getDrawable(R.drawable.image_turuncu),
                 1
         );
         Soru soru47 = new Soru(
