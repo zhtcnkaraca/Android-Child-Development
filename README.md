@@ -3,9 +3,9 @@
 # Child Development App
 ![appicon](https://github.com/zhtcnkaraca/Android-Child-Development/blob/main/image/ic_launcher.png)
 
-  It is basic education app for children which include colors, alphabet, animals, shapes, numbers and theese questions.
+  It is basic education app for children which include colors, alphabet, animals, shapes, numbers and these questions.
 
-The main scope of project is learning the basic needed knowledge of school just download a single app.
+The aim of the project is for children to learn and practice basic school knowledge by just downloading an application. 
 
 <h2 id="Outputs">Outputs</h2>
 <p>
