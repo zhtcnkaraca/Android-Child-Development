@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/softPurple"
-    tools:context=".SoruActivity">
+    tools:context=".activities.SoruActivity">
 
     <Button
         android:id="@+id/btn_cvp1"

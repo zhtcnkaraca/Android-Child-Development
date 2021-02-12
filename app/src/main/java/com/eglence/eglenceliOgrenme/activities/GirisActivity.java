@@ -1,10 +1,15 @@
-package com.eglence.eglenceliOgrenme;
+package com.eglence.eglenceliOgrenme.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+
+import com.eglence.eglenceliOgrenme.utils.BarGizleUtil;
+import com.eglence.eglenceliOgrenme.model.Ogren;
+import com.eglence.eglenceliOgrenme.utils.OgrenUtil;
+import com.eglence.eglenceliOgrenme.R;
 
 public class GirisActivity extends AppCompatActivity {
 

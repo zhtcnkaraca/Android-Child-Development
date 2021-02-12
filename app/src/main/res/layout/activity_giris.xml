@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:background="@color/softPurple"
     android:orientation="vertical"
-    tools:context=".GirisActivity">
+    tools:context=".activities.GirisActivity">
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:src="@drawable/big_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

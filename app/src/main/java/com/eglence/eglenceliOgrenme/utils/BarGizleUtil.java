@@ -1,4 +1,4 @@
-package com.eglence.eglenceliOgrenme;
+package com.eglence.eglenceliOgrenme.utils;
 
 import android.app.Activity;
 import android.content.Context;

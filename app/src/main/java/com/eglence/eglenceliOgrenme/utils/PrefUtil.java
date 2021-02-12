@@ -1,9 +1,8 @@
-package com.eglence.eglenceliOgrenme;
+package com.eglence.eglenceliOgrenme.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-import android.provider.SyncStateContract;
 
 public class PrefUtil {
     private  static SharedPreferences getPrefs(Context context)

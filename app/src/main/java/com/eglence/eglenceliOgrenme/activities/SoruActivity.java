@@ -1,4 +1,4 @@
-package com.eglence.eglenceliOgrenme;
+package com.eglence.eglenceliOgrenme.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,10 @@ import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.eglence.eglenceliOgrenme.R;
+import com.eglence.eglenceliOgrenme.model.Soru;
+import com.eglence.eglenceliOgrenme.utils.SorularUtil;
 
 public class SoruActivity extends AppCompatActivity  implements View.OnClickListener {
 
@@ -49,13 +53,13 @@ public class SoruActivity extends AppCompatActivity  implements View.OnClickList
     }
     private  void dogruCevapKontrol(int clickedAnswer,View btnClicked){
         if(SorularUtil.cevapKontrol(clickedAnswer)){
-            btnClicked.setBackgroundColor(getResources().getColor(R.color.green));
+            btnClicked.setBackground(getResources().getDrawable(R.drawable.dogru_btn));
             ikiSaniyeBekle();
         }
 
         else{
-            btnClicked.setBackgroundColor(getResources().getColor(R.color.red));
-           ikiSaniyeBekle();
+            btnClicked.setBackground(getResources().getDrawable(R.drawable.yanlis_btn));
+            ikiSaniyeBekle();
         }
     }
     private void btnRestart(){

@@ -1,4 +1,4 @@
-package com.eglence.eglenceliOgrenme;
+package com.eglence.eglenceliOgrenme.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.eglence.eglenceliOgrenme.utils.BarGizleUtil;
+import com.eglence.eglenceliOgrenme.model.Ogren;
+import com.eglence.eglenceliOgrenme.utils.OgrenUtil;
+import com.eglence.eglenceliOgrenme.utils.PrefUtil;
+import com.eglence.eglenceliOgrenme.R;
 
 public class DetayActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -46,7 +52,7 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
     }
 
     public void ItemGetir(){
-        String categoryName =PrefUtil.getCategory((getApplicationContext()));
+        String categoryName = PrefUtil.getCategory((getApplicationContext()));
         status=true;
         while (status == true){
             Ogren ogren = OgrenUtil.getNextItem();

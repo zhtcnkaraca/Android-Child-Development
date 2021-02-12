@@ -1,6 +1,9 @@
-package com.eglence.eglenceliOgrenme;
+package com.eglence.eglenceliOgrenme.utils;
 
 import android.content.Context;
+
+import com.eglence.eglenceliOgrenme.R;
+import com.eglence.eglenceliOgrenme.model.Ogren;
 
 import java.util.ArrayList;
 

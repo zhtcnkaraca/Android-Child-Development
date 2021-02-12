@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EglenceliOgrenme">
-        <activity android:name=".SoruActivity"  android:screenOrientation="landscape" ></activity>
+        <activity android:name=".activities.SoruActivity"  android:screenOrientation="landscape" ></activity>
         <activity
-            android:name=".AnaActivity"
+            android:name=".activities.AnaActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".DetayActivity"
+            android:name=".activities.DetayActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".GirisActivity"
+            android:name=".activities.GirisActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

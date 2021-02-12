@@ -1,4 +1,4 @@
-package com.eglence.eglenceliOgrenme;
+package com.eglence.eglenceliOgrenme.activities;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.eglence.eglenceliOgrenme.utils.BarGizleUtil;
+import com.eglence.eglenceliOgrenme.utils.PrefUtil;
+import com.eglence.eglenceliOgrenme.R;
 
 public class AnaActivity extends AppCompatActivity  implements View.OnClickListener {
 
