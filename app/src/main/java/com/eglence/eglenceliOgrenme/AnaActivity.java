@@ -96,8 +96,9 @@ public class AnaActivity extends AppCompatActivity  implements View.OnClickListe
                 nextActivity();
                 break;
             case R.id.btn_sorular:
-                PrefUtil.setCategory(getApplicationContext(), "Sorular");
-                nextActivity();
+                Intent questionActivityIntent=new Intent(getApplicationContext(),SoruActivity.class);
+                startActivity(questionActivityIntent);
+                finish();
                 break;
         }
     }
