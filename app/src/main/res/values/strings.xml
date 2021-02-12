@@ -23,7 +23,6 @@
     <string name="hayvanlar_kategori">Hayvanlar</string>
 
 
-
     <string name="sifir_sayi">Sıfır</string>
     <string name="bir_sayi">Bir</string>
     <string name="iki_sayi">İki</string>
@@ -36,7 +35,6 @@
     <string name="dokuz_sayi">Dokuz</string>
     <string name="on_sayi">On</string>
     <string name="sayilar_kategori">Sayilar</string>
-
 
 
     <string name="beyaz_renk">Beyaz</string>
@@ -97,12 +95,65 @@
     <string name="harfler_kategori">Harfler</string>
 
 
-
     <string name="cikis_dikkat">Dikkat</string>
     <string name="cikis_soru">Uygulamadan çıkmak üzeresiniz!</string>
     <string name="cikis_evet">Evet</string>
     <string name="cikis_hayir">Hayır</string>
 
+
+    <string name="soru1_sorusu">Aşağıdakılerden hangisi Aslan dır?</string>
+    <string name="soru2_sorusu">Aşağıdakılerden hangisi Kirpi dir?</string>
+    <string name="soru3_sorusu">Aşağıdakılerden hangisi Zürafa dır?</string>
+    <string name="soru4_sorusu">Aşağıdakılerden hangisi Kedi dir?</string>
+    <string name="soru5_sorusu">Aşağıdakılerden hangisi Köpek dir?</string>
+    <string name="soru6_sorusu">Aşağıdakılerden hangisi Panda dır?</string>
+    <string name="soru7_sorusu">Aşağıdakılerden hangisi Kaplumbağa dır?</string>
+    <string name="soru8_sorusu">Aşağıdakılerden hangisi Horoz dur?</string>
+    <string name="soru9_sorusu">Aşağıdakılerden hangisi Fil dir?</string>
+    <string name="soru10_sorusu">Aşağıdakılerden hangisi Domuz dur?</string>
+
+    <string name="soru11_sorusu">Aşağıdakilerden hangisi 0 sayısıdır?</string>
+    <string name="soru12_sorusu">Aşağıdakilerden hangisi 10 sayıdır?</string>
+    <string name="soru13_sorusu">Aşağıdakilerden hangisi 6 sayısıdır?</string>
+    <string name="soru14_sorusu">Aşağıdakilerden hangisi 4 sayısıdır?</string>
+    <string name="soru15_sorusu">Aşağıdakilerden hangisi 5 sayısıdır?</string>
+    <string name="soru16_sorusu">Aşağıdakilerden hangisi 3 sayısıdır?</string>
+    <string name="soru17_sorusu">Aşağıdakilerden hangisi 2 sayısıdır?</string>
+    <string name="soru18_sorusu">Aşağıdakilerden hangisi 7 sayısıdır?</string>
+    <string name="soru19_sorusu">Aşağıdakilerden hangisi 9 sayısıdır?</string>
+    <string name="soru20_sorusu">Aşağıdakilerden hangisi 8 sayısıdır?</string>
+
+    <string name="soru21_sorusu">Hangisi üçgendir?</string>
+    <string name="soru22_sorusu">Hangisi karedir??</string>
+    <string name="soru23_sorusu">Hangisi beşgendir??</string>
+    <string name="soru24_sorusu">Hangisi dairedir?</string>
+    <string name="soru25_sorusu">Hangisi dörtgendir?</string>
+    <string name="soru26_sorusu">Hangisi altıgendir?</string>
+    <string name="soru27_sorusu">Hangisi kalptir?</string>
+    <string name="soru28_sorusu">Hangisi dikdörtgendir?</string>
+    <string name="soru29_sorusu">Hangisi yıldızdır?</string>
+
+    <string name="soru30_sorusu">Aşağıdakilerden hangisi A harfidir?</string>
+    <string name="soru31_sorusu">Aşağıdakilerden hangisi B harfidir?</string>
+    <string name="soru32_sorusu">Aşağıdakilerden hangisi C harfidir?</string>
+    <string name="soru33_sorusu">Aşağıdakilerden hangisi Ç harfidir?</string>
+    <string name="soru34_sorusu">Aşağıdakilerden hangisi D harfidir?</string>
+    <string name="soru35_sorusu">Aşağıdakilerden hangisi E harfidir?</string>
+    <string name="soru36_sorusu">Aşağıdakilerden hangisi F harfidir?</string>
+    <string name="soru37_sorusu">Aşağıdakilerden hangisi G harfidir?</string>
+    <string name="soru38_sorusu">Aşağıdakilerden hangisi H harfidir?</string>
+    <string name="soru39_sorusu">Aşağıdakilerden hangisi J harfidir?</string>
+
+    <string name="soru40_sorusu">Hangisi beyazdır?</string>
+    <string name="soru41_sorusu">Hangisi kahverengidir?</string>
+    <string name="soru42_sorusu">Hangisi laciverttir?</string>
+    <string name="soru43_sorusu">Hangisi mavidir?</string>
+    <string name="soru44_sorusu">Hangisi mordur?</string>
+    <string name="soru45_sorusu">Hangisi pembedir?</string>
+    <string name="soru46_sorusu">Hangisi sarıdır?</string>
+    <string name="soru47_sorusu">Hangisi siyahtır?</string>
+    <string name="soru48_sorusu">Hangisi turuncudur?</string>
+    <string name="soru49_sorusu">Hangisi yeşildir?</string>
 
 
 </resources>
