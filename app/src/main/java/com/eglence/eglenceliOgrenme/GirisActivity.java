@@ -2,12 +2,9 @@ package com.eglence.eglenceliOgrenme;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.view.View;
-import android.widget.ProgressBar;
 
 public class GirisActivity extends AppCompatActivity {
 
@@ -20,7 +17,7 @@ public class GirisActivity extends AppCompatActivity {
     }
     private void init(){
 
-        NavBarHideUtil.hideBar2(GirisActivity.this);
+        BarGizleUtil.hideBar2(GirisActivity.this);
         timer();
     }
 

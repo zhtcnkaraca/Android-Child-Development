@@ -23,7 +23,7 @@ public class AnaActivity extends AppCompatActivity  implements View.OnClickListe
 
     private void init(){
 
-        NavBarHideUtil.hideBar2(AnaActivity.this);
+        BarGizleUtil.hideBar2(AnaActivity.this);
         harfler = findViewById(R.id.btn_harfler);
         hayvanlar = findViewById(R.id.btn_hayvanlar);
         sayilar = findViewById(R.id.btn_sayilar);

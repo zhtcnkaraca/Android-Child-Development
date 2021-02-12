@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EglenceliOgrenme">
-        <activity android:name=".SoruActivity"></activity>
+        <activity android:name=".SoruActivity"  android:screenOrientation="landscape" ></activity>
         <activity
             android:name=".AnaActivity"
             android:screenOrientation="landscape" />
