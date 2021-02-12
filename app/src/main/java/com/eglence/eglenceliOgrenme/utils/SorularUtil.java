@@ -1,8 +1,12 @@
-package com.eglence.eglenceliOgrenme;
+package com.eglence.eglenceliOgrenme.utils;
 
 import android.content.Context;
 
+import com.eglence.eglenceliOgrenme.R;
+import com.eglence.eglenceliOgrenme.model.Soru;
+
 import java.util.ArrayList;
+import java.util.Random;
 
 public class SorularUtil {
     static ArrayList<Soru> sorular = new ArrayList<>();
@@ -471,7 +475,9 @@ public class SorularUtil {
 
     public static Soru sonrakiSoru(){
         if(SORU_INDEX<sorular.size()-1){
-            SORU_INDEX++;
+            Random random = new Random();
+            int randomNumber = random.nextInt(49);
+            SORU_INDEX= randomNumber;
         }
         else {
             SORU_INDEX = 0;

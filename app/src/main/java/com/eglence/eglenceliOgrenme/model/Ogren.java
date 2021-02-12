@@ -1,4 +1,4 @@
-package com.eglence.eglenceliOgrenme;
+package com.eglence.eglenceliOgrenme.model;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
