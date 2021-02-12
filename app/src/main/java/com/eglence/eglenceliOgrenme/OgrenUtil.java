@@ -393,7 +393,7 @@ public class OgrenUtil {
         Ogren question60 = new Ogren(
                 context.getResources().getString(R.string.g2harfi_isim),
                 context.getResources().getString(R.string.harfler_kategori),
-                context.getResources().getDrawable(R.drawable.image_gharfi),
+                context.getResources().getDrawable(R.drawable.image_g2harfi),
                 context.getResources().getResourceName(R.raw.ses_g2harf)
         );
 
