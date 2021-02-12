@@ -19,17 +19,22 @@ public class GirisActivity extends AppCompatActivity {
        init();
     }
     private void init(){
+
+        NavBarHideUtil.hideBar2(GirisActivity.this);
         timer();
     }
 
+
     public void timer(){
         CountDownTimer countDownTimer =new
-                CountDownTimer(3000,1000) {
+                CountDownTimer(1000,1000) {
                     @Override
                     public void onTick(long l) {
                     }
                     @Override
                     public void onFinish() {
+                        OgrenUtil.createOgrens(getApplicationContext());
+                        Ogren ogren = OgrenUtil.getNextItem();
                         Intent nextPageActivity=new Intent(getApplicationContext(),AnaActivity.class);
                         startActivity(nextPageActivity);
                         finish();
@@ -37,4 +42,6 @@ public class GirisActivity extends AppCompatActivity {
                 };
         countDownTimer.start();
     }
+
+
 }
