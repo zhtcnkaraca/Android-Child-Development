@@ -6,11 +6,11 @@ import android.media.Image;
 
 public class Ogren {
 
-    public Ogren(String adi, String kategori, Drawable fotograf, String ses) {
+    public Ogren(String adi, String kategori, Drawable fotograf) {
         this.adi = adi;
         this.kategori = kategori;
         this.fotograf = fotograf;
-        this.ses = ses;
+
     }
 
     public String getAdi() {
@@ -37,17 +37,10 @@ public class Ogren {
         this.fotograf = fotograf;
     }
 
-    public String getSes() {
-        return ses;
-    }
-
-    public void setSes(String ses) {
-        this.ses = ses;
-    }
 
     String adi;
     String kategori;
     Drawable fotograf;
-    String ses;
+
 
 }
