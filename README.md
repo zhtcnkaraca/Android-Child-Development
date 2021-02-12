@@ -1,4 +1,4 @@
-# [A ( MVVM & Java )]
+# [Android-Child-Development ( MVVM & Java )]
 
 # Child Development App
 ![appicon](https://github.com/zhtcnkaraca/Android-Child-Development/blob/main/image/ic_launcher.png)
