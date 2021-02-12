@@ -23,6 +23,8 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
         init();
     }
     private void init(){
+
+        NavBarHideUtil.hideBar2(DetayActivity.this);
         anamenu =findViewById(R.id.btn_detay_anamenu);
         ses =findViewById(R.id.btn_detay_ses);
         geri =findViewById(R.id.btn_detay_geri);
@@ -89,4 +91,6 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
                 break;
         }
     }
+
+
 }
