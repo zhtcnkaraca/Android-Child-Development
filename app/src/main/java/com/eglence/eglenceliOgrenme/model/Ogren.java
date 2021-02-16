@@ -6,7 +6,7 @@ import android.media.Image;
 
 public class Ogren {
 
-    public Ogren(String adi, String kategori, Drawable fotograf) {
+    public Ogren(String adi, int kategori, Drawable fotograf) {
         this.adi = adi;
         this.kategori = kategori;
         this.fotograf = fotograf;
@@ -21,11 +21,11 @@ public class Ogren {
         this.adi = adi;
     }
 
-    public String getKategori() {
+    public int getKategori() {
         return kategori;
     }
 
-    public void setKategori(String kategori) {
+    public void setKategori(int kategori) {
         this.kategori = kategori;
     }
 
@@ -39,7 +39,7 @@ public class Ogren {
 
 
     String adi;
-    String kategori;
+    int kategori;
     Drawable fotograf;
 
 

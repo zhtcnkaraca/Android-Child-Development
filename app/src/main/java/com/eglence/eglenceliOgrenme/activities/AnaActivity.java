@@ -8,9 +8,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.eglence.eglenceliOgrenme.utils.BarGizleUtil;
-import com.eglence.eglenceliOgrenme.utils.PrefUtil;
 import com.eglence.eglenceliOgrenme.R;
 
 public class AnaActivity extends AppCompatActivity  implements View.OnClickListener {
@@ -44,10 +44,13 @@ public class AnaActivity extends AppCompatActivity  implements View.OnClickListe
         cikis.setOnClickListener(this);
         sekiller.setOnClickListener(this);
 
+
+
     }
 
-    public void nextActivity(){
+    public void nextActivity(int id){
         Intent questionActivityIntent=new Intent(getApplicationContext(),DetayActivity.class);
+        questionActivityIntent.putExtra( "gidenId",id);
         startActivity(questionActivityIntent);
         finish();
     }
@@ -80,24 +83,24 @@ public class AnaActivity extends AppCompatActivity  implements View.OnClickListe
                 startAlertDialog();
                 break;
             case R.id.btn_hayvanlar:
-                PrefUtil.setCategory(getApplicationContext(), "Hayvanlar");
-                nextActivity();
+                nextActivity(hayvanlar.getId());
+
                 break;
             case R.id.btn_sayilar:
-                PrefUtil.setCategory(getApplicationContext(), "Sayilar");
-                nextActivity();
+                nextActivity(sayilar.getId());
+
                 break;
             case R.id.btn_renkler:
-                PrefUtil.setCategory(getApplicationContext(), "Renkler");
-                nextActivity();
+                nextActivity(renkler.getId());
+
                 break;
             case R.id.btn_sekiller:
-                PrefUtil.setCategory(getApplicationContext(), "Sekiller");
-                nextActivity();
+                nextActivity(sekiller.getId());
+
                 break;
             case R.id.btn_harfler:
-                PrefUtil.setCategory(getApplicationContext(), "Harfler");
-                nextActivity();
+                nextActivity(harfler.getId());
+
                 break;
             case R.id.btn_sorular:
                 Intent questionActivityIntent=new Intent(getApplicationContext(),SoruActivity.class);

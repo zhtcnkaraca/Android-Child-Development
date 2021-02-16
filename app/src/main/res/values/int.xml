@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="hayvanlar">2131361887</integer>
+    <integer name="sekiller">2131361890</integer>
+    <integer name="sayilar">2131361889</integer>
+    <integer name="renkler">2131361888</integer>
+    <integer name="harfler">2131361886</integer>
+</resources>

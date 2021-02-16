@@ -12,7 +12,6 @@ import android.widget.TextView;
 import com.eglence.eglenceliOgrenme.utils.BarGizleUtil;
 import com.eglence.eglenceliOgrenme.model.Ogren;
 import com.eglence.eglenceliOgrenme.utils.OgrenUtil;
-import com.eglence.eglenceliOgrenme.utils.PrefUtil;
 import com.eglence.eglenceliOgrenme.R;
 
 public class DetayActivity extends AppCompatActivity implements View.OnClickListener {
@@ -21,6 +20,7 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
     TextView isim;
     Boolean status= true;
     ImageView resim;
+    Button harfler, hayvanlar, sayilar, renkler,sekiller;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +41,11 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
         geri.setOnClickListener(this);
         ileri.setOnClickListener(this);
 
+        harfler = findViewById(R.id.btn_harfler);
+        hayvanlar = findViewById(R.id.btn_hayvanlar);
+        sayilar = findViewById(R.id.btn_sayilar);
+        renkler = findViewById(R.id.btn_renkler);
+        sekiller = findViewById(R.id.btn_sekiller);
 
 
         OgrenUtil.createOgrens(getApplicationContext());
@@ -52,11 +57,14 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
     }
 
     public void ItemGetir(){
-        String categoryName = PrefUtil.getCategory((getApplicationContext()));
+
+        Bundle bundle=getIntent().getExtras();
+
+        int categoryName =bundle.getInt("gidenId") ;
         status=true;
         while (status == true){
             Ogren ogren = OgrenUtil.getNextItem();
-            if(categoryName.equals(ogren.getKategori())){
+            if(categoryName==ogren.getKategori()){
                 status= false;
                 isim.setText(ogren.getAdi());
                 resim.setImageDrawable(ogren.getFotograf());
@@ -65,11 +73,13 @@ public class DetayActivity extends AppCompatActivity implements View.OnClickList
         }
     }
     public void ItemGeriGetir(){
-        String categoryName =PrefUtil.getCategory((getApplicationContext()));
+        Bundle bundle=getIntent().getExtras();
+
+        int categoryName =bundle.getInt("gidenId") ;
         status=true;
         while (status == true){
             Ogren ogren = OgrenUtil.getPreviousItem();
-            if(categoryName.equals(ogren.getKategori())){
+            if(categoryName==ogren.getKategori()){
                 status= false;
                 isim.setText(ogren.getAdi());
                 resim.setImageDrawable(ogren.getFotograf());
